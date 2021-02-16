@@ -1,0 +1,44 @@
+@charset "EUC-KR";
+
+body {
+	text-align: center;
+	width: 900px;
+}
+div#wrapper {
+	width: 100%;
+	text-align: left;
+	margin: 0 auto;
+}
+header, footer, nav, aside, section {
+	border: 1px solid #999;
+}
+header {
+	height: 50px;
+	background-color: red;
+}
+nav, section, aside {
+	float: left;
+}
+nav {
+	background-color: goldenrod;
+	width: 100px;
+}
+section {
+	background-color: green;
+	width: 604px;
+}
+aside {
+	background-color: goldenrod;
+	width: 100px;
+}
+footer {
+	height: 50px;
+	background-color: blue;
+	position: relative;
+	clear: both;
+}
+article {
+	width: 90%;
+	margin: 20px;
+	background-color: #999;
+}
